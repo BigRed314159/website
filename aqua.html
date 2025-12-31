@@ -12,19 +12,19 @@
 <div class="image-text-wrap">
 <img src="aqua.webp" alt="an autonomous surface vessel" width="30%">
 <h3>Autonomous Surface Vessel Design Team</h3>
-<p>I am currently the director of autonomy for <a href="https://aquatonomous.vercel.app/">Aquatonomous</a>, a design team building an autonomous surface vessel for ecological research and to complete against other schools. 
+<p>I am currently the director of autonomy for <a href="https://aquatonomous.vercel.app/">Aquatonomous</a>, a design team building an autonomous surface vessel for ecological research and for the <a href="https://roboboat.org/">Roboboat</a> competition. 
 <br><br>
-My team and I are responsible for the boat's computer vision, LIDAR, and path planning. 
-My contributions were to the architecture of the autonomy pipeline, administering the team's ROS2 environment, including MAVROS and launch files, and using the microphone to recognise sound signals. 
+My team and I are responsible for the boat's computer vision, mapping, and path planning. 
+My contributions are mainly to the design of the autonomy pipeline, administering the team's ROS2 environment including MAVROS and launch files, and using the boat's microphone to recognize sound signals. 
 <br><br>
 At a high level, the boat's autonomy pipeline has computer vision, mapping, and path planning stages. 
-The computer vision stage uses a YOLO model to put bounding boxes on buoys and other boats. 
-The mapping stage uses DBSCAN clustering with the LIDAR pointcloud to detect and localize obstacles. 
+The computer vision stage uses a YOLO model to classify buoys and other boats. 
+The mapping stage uses DBSCAN clustering on the LIDAR pointcloud to detect and localize obstacles. 
 Data from computer vision is then used to classify obstacles.
-A behavior tree is used to determine the next waypoint the boat needs to reach to complete tasks in the competition. 
+A behavior tree is used to determine the next waypoint the boat must reach to complete its tasks. 
 A potential fields algorithm is used to navigate to that location. 
 <br><br>
-In the previous year I was a general member of the autonomy team.
+In the previous year I was a general member of the autonomy team and worked on path planning.
 </p>
 <span><span>
 </div>
